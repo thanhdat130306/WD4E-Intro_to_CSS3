@@ -1,4 +1,75 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+```css
+/* Style the body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150%;
+  margin: 0;
+  padding: 0;
 }
+
+/* Style the header */
+header {
+  background-color: #d8f3dc;
+}
+
+/* Style the navigation */
+nav {
+  background-color: #2d6a4f;
+}
+
+/* Style the navigation list */
+nav ul {
+  list-style-type: none;
+  padding: 15px;
+  margin: 0;
+}
+
+/* Style the list items */
+li {
+  display: inline-block;
+  width: 30%;
+}
+
+/* Style the navigation links */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style the main content */
+main {
+  background-color: #f1faee;
+  font-size: 110%;
+  padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #1b4332;
+}
+
+/* Style paragraphs */
+p {
+  line-height: 1.6;
+}
+
+/* Style the footer */
+footer {
+  background-color: #d8f3dc;
+  padding: 15px;
+}
+
+/* Style images inside the main content */
+main img {
+  margin: 5px;
+  border: 2px solid #95d5b2;
+  border-radius: 5px;
+}
+
+/* Style links when the mouse hovers over them */
+a:hover {
+  text-decoration: underline;
+}
+```
